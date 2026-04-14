@@ -1,3 +1,3 @@
-void foo(int);
+void foo();
 
-void _start() { foo(3); }
+void _start() { foo(); }
