@@ -2,15 +2,27 @@
 
 PROG_BINS := $(patsubst %.c,build/%,$(wildcard *.c))
 
-all: build/test_addend build/test_addend.o build/test_foo.o
+all: build/hello_world build/test_addend build/test_addend.o build/test_foo.o build/evil_puts.o
 
 clean:
 	-rm -rf build 2>/dev/null
 
-build/%: build/%.o build/test_foo.o
+build/hello_world: hello_world.c
 	mkdir -p $(@D)
-	gcc -nostdlib -static -std=c23 -fno-pic -fno-omit-frame-pointer -m32 -g -Og -o $@ $^
+	gcc -static -std=c2x -fno-pic -fno-omit-frame-pointer -m32 -g -Og -o $@ $^
 
-build/%.o: %.c
+build/test_addend: build/test_addend.o build/test_foo.o
 	mkdir -p $(@D)
-	gcc -nostdlib -static -std=c23 -fno-pic -fno-omit-frame-pointer -m32 -g -Og -c -o $@ $^
+	gcc -nostdlib -static -std=c2x -fno-pic -fno-omit-frame-pointer -m32 -g -Og -o $@ $^
+
+build/test_addend.o: test_addend.c
+	mkdir -p $(@D)
+	gcc -nostdlib -static -std=c2x -fno-pic -fno-omit-frame-pointer -m32 -g -Og -c -o $@ $^
+
+build/test_foo.o: test_foo.c
+	mkdir -p $(@D)
+	gcc -nostdlib -static -std=c2x -fno-pic -fno-omit-frame-pointer -m32 -g -Og -c -o $@ $^
+
+build/evil_puts.o: evil_puts.c
+	mkdir -p $(@D)
+	gcc -nostdlib -static -std=c2x -fno-pic -fno-omit-frame-pointer -m32 -g -Og -c -o $@ $^
