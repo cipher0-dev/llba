@@ -12,22 +12,40 @@ This repo tracks my progress reading Learning Linux Binary Analysis.
   - [x] Useful devices and files
   - [x] Linker-related environment points
   - [x] Summary
-- [ ] Chapter 02 - The ELF Binary Format
+- [x] Chapter 02 - The ELF Binary Format
   - [x] ELF file types
   - [x] ELF program headers
   - [x] ELF section headers
   - [x] ELF symbols
-  - [ ] ELF relocations
-  - [ ] ELF dynamic linking
-  - [ ] Coding an ELF Parser
-  - [ ] Summary
+  - [x] ELF relocations
+  - [x] ELF dynamic linking
+  - [x] Coding an ELF Parser
+  - [x] Summary
 - [ ] Chapter 03 - Linux Process Tracing
-- [ ] Chapter 04 - ELF Virus Technology - Linux/Unix Viruses
-- [ ] Chapter 05 - Linux Binary Protection
-- [ ] Chapter 06 - ELF Binary Forensics in Linux
+  - [ ] The importance of ptrace
+  - [ ] ptrace requests
+  - [ ] The process register state and flags
+  - [ ] A simple ptrace-based debugger
+  - [ ] A simple ptrace debugger with process attach capabilities
+  - [ ] Advanced function-tracing software
+  - [ ] ptrace and forensic analysis
+  - [ ] Process image reconstruction - from the memory to the executable
+  - [ ] Code injection with ptrace
+  - [ ] Simple examples aren't always so trivial
+  - [ ] Demonstrating the code_inject tool
+  - [ ] A ptrace anti-debugging trick
+  - [ ] Summary
+- [ ] ~Chapter 04 - ELF Virus Technology - Linux/Unix Viruses~ - Skip, not immediately related to my learning objectives
+- [ ] ~Chapter 05 - Linux Binary Protection~ - Skip, not immediately related to my learning objectives
+- [ ] ~Chapter 06 - ELF Binary Forensics in Linux~ - Skip, not immediately related to my learning objectives
 - [ ] Chapter 07 - Process Memory Forensics
-- [ ] Chapter 08 - ECFS - Extended Core File Snapshot Technology
-- [ ] Chapter 09 - Linux /proc/kcore Analysis
+  - [ ] What does a process look like?
+  - [ ] Process memory infection
+  - [ ] Detecting the ET_DYN injection
+  - [ ] Linux ELF core files
+  - [ ] Summary
+- [ ] ~Chapter 08 - ECFS - Extended Core File Snapshot Technology~ - Skip, not immediately related to my learning objectives
+- [ ] ~Chapter 09 - Linux /proc/kcore Analysis~ - Skip, not immediately related to my learning objectives
 
 ## References
 
