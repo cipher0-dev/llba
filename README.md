@@ -21,29 +21,29 @@ This repo tracks my progress reading Learning Linux Binary Analysis.
   - [x] ELF dynamic linking
   - [x] Coding an ELF Parser
   - [x] Summary
-- [ ] Chapter 03 - Linux Process Tracing
-  - [ ] The importance of ptrace
-  - [ ] ptrace requests
-  - [ ] The process register state and flags
-  - [ ] A simple ptrace-based debugger
-  - [ ] A simple ptrace debugger with process attach capabilities
-  - [ ] Advanced function-tracing software
-  - [ ] ptrace and forensic analysis
-  - [ ] Process image reconstruction - from the memory to the executable
-  - [ ] Code injection with ptrace
-  - [ ] Simple examples aren't always so trivial
-  - [ ] Demonstrating the code_inject tool
-  - [ ] A ptrace anti-debugging trick
-  - [ ] Summary
+- [x] Chapter 03 - Linux Process Tracing
+  - [x] The importance of ptrace
+  - [x] ptrace requests
+  - [x] The process register state and flags
+  - [x] A simple ptrace-based debugger
+  - [x] A simple ptrace debugger with process attach capabilities
+  - [x] Advanced function-tracing software
+  - [x] ptrace and forensic analysis
+  - [x] Process image reconstruction - from the memory to the executable
+  - [x] Code injection with ptrace
+  - [x] Simple examples aren't always so trivial
+  - [x] Demonstrating the code_inject tool
+  - [x] A ptrace anti-debugging trick
+  - [x] Summary
 - [ ] ~Chapter 04 - ELF Virus Technology - Linux/Unix Viruses~ - Skip, not immediately related to my learning objectives
 - [ ] ~Chapter 05 - Linux Binary Protection~ - Skip, not immediately related to my learning objectives
 - [ ] ~Chapter 06 - ELF Binary Forensics in Linux~ - Skip, not immediately related to my learning objectives
-- [ ] Chapter 07 - Process Memory Forensics
-  - [ ] What does a process look like?
-  - [ ] Process memory infection
-  - [ ] Detecting the ET_DYN injection
-  - [ ] Linux ELF core files
-  - [ ] Summary
+- [x] Chapter 07 - Process Memory Forensics
+  - [x] What does a process look like?
+  - [x] Process memory infection
+  - [x] Detecting the ET_DYN injection
+  - [x] Linux ELF core files
+  - [x] Summary
 - [ ] ~Chapter 08 - ECFS - Extended Core File Snapshot Technology~ - Skip, not immediately related to my learning objectives
 - [ ] ~Chapter 09 - Linux /proc/kcore Analysis~ - Skip, not immediately related to my learning objectives
 
